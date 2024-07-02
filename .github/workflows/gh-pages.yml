@@ -3,7 +3,7 @@ name: github pages
 on:
   push:
     branches:
-      - v2 # Set a branch to deploy
+      - v25 # Set a branch to deploy
   pull_request:
   workflow_dispatch:
 
@@ -30,7 +30,7 @@ jobs:
 
       - name: Deploy
         uses: peaceiris/actions-gh-pages@v3
-        if: github.ref == 'refs/heads/v2'
+        if: github.ref == 'refs/heads/v25'
         with:
           github_token: ${{ secrets.GITHUB_TOKEN }}
           publish_dir: ./public
