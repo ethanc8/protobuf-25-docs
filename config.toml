@@ -57,9 +57,9 @@ resampleFilter = "CatmullRom"
 quality = 75
 anchor = "smart"
 
-[services]
-[services.googleAnalytics]
-id = "G-5L8P8GRN4Y"
+# [services]
+# [services.googleAnalytics]
+# id = "G-5L8P8GRN4Y"
 
 # Language configuration
 
